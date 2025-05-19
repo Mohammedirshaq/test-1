@@ -12,7 +12,7 @@ provider "google" {
 resource "google_compute_instance" "vm_instance" {
   name         =  "vm0"
   machine_type = "e2-micro"  # Replace with your desired machine type
-  zone         = "us-central1"  # Replace with your desired zone
+  zone         = "us-central1-c"  # Replace with your desired zone
 
   boot_disk {
     initialize_params {
