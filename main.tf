@@ -4,3 +4,7 @@ terraform {
     prefix  = "terraform/state"
   }
 }
+provider "google" {
+  project = "ferrous-plating-458312-q5"
+  region  = "us"  # Replace with your desired region
+}
