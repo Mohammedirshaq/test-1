@@ -6,7 +6,7 @@ terraform {
 }
 provider "google" {
   project = "ferrous-plating-458312-q5"
-  region  = "us-central1"  # Replace with your desired region
+  region  = "us-central1-c"  # Replace with your desired region
 }
 
 resource "google_compute_instance" "vm_instance" {
