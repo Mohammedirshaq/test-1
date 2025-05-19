@@ -6,13 +6,13 @@ terraform {
 }
 provider "google" {
   project = "ferrous-plating-458312-q5"
-  region  = "northamerica-south1"  # Replace with your desired region
+  region  = "us-central1"  # Replace with your desired region
 }
 
 resource "google_compute_instance" "vm_instance" {
   name         =  "vm0"
   machine_type = "e2-micro"  # Replace with your desired machine type
-  zone         = "northamerica-south1-a"  # Replace with your desired zone
+  zone         = "us-central1"  # Replace with your desired zone
 
   boot_disk {
     initialize_params {
