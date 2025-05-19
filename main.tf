@@ -6,5 +6,5 @@ terraform {
 }
 provider "google" {
   project = "ferrous-plating-458312-q5"
-  region  = "us-central1"  # Replace with your desired region
+  region  = "us"  # Replace with your desired region
 }
